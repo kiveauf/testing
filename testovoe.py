@@ -74,6 +74,6 @@ def get_score(game_stamps, offset):  #binary search
 
 game_stamps = generate_game()
 
-#pprint(game_stamps)
+pprint(game_stamps)
 
-#pprint(get_score(game_stamps, 100000))
+pprint(get_score(game_stamps, 100000))

@@ -2,7 +2,7 @@ from pprint import pprint
 import random
 import math
 
-TIMESTAMPS_COUNT = 50000
+TIMESTAMPS_COUNT = 60000
 
 PROBABILITY_SCORE_CHANGED = 0.0001
 

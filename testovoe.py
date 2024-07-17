@@ -19,6 +19,10 @@ INITIAL_STAMP = {
 }
 
 
+def _print(thing):
+    print(thing)
+
+
 def generate_stamp(previous_value):
     score_changed = random.random() > 1 - PROBABILITY_SCORE_CHANGED
     home_score_change = 1 if score_changed and random.random() > 1 - \
